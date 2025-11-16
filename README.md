@@ -371,6 +371,10 @@ result = crew.kickoff()
 
 
 
+## 🎯 Adding Agents to Cursor Commands
+
+To make agents accessible via Cursor commands, add a markdown file to `.cursor/commands/`. If you want to replicate an existing Python script, you can write the workflow steps in the markdown file. See `.cursor/commands/generate-weekly-report.md` for an example.
+
 ## 🤝 Contributing to the Project
 
 ### Getting Started
